@@ -59,7 +59,7 @@ public class GraphicSettings : MonoBehaviour
 
         //load value
         resDropDown.value = PlayerPrefs.GetInt("save_value_resolution");
-        resDropDown.value = PlayerPrefs.GetInt("save_value_textureQuality");
+        textureQualityDropDown.value = PlayerPrefs.GetInt("save_value_textureQuality");
 
         //Update settings
         fullscreenOnOff();
